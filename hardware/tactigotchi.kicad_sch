@@ -4104,6 +4104,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 102.87) (xy 196.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228ef078-4d32-4d5a-bf1c-90d90b97d94e")
+	)
+	(wire
+		(pts
 			(xy 196.85 38.1) (xy 198.12 38.1)
 		)
 		(stroke
@@ -4124,7 +4134,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 105.41) (xy 196.85 105.41)
+			(xy 191.77 102.87) (xy 196.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274973f8-89ef-4050-9ca9-47f17f3b8b58")
+	)
+	(wire
+		(pts
+			(xy 205.74 106.68) (xy 196.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4254,7 +4274,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 102.87) (xy 201.93 102.87)
+			(xy 196.85 104.14) (xy 205.74 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5014,7 +5034,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 105.41) (xy 196.85 107.95)
+			(xy 196.85 106.68) (xy 196.85 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5221,6 +5241,16 @@
 			(justify right)
 		)
 		(uuid "25b99c36-195a-40f9-966b-cda51a4f5a2e")
+	)
+	(label "PSU_3v3"
+		(at 83.82 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27a5ac00-a430-4853-b157-3c9583032768")
 	)
 	(label "SPI0_SCLK"
 		(at 196.85 38.1 180)
@@ -5577,7 +5607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
 			(at 181.61 107.95 0)
 			(effects
 				(font
@@ -5663,7 +5693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 30.48 55.88 0)
 			(effects
 				(font
@@ -5998,7 +6028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 30.48 116.84 0)
 			(effects
 				(font
@@ -6141,7 +6171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 115.57 62.738 90)
 			(effects
 				(font
@@ -6201,7 +6231,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22R"
 			(at 167.64 41.91 90)
 			(effects
 				(font
@@ -6209,7 +6239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 167.64 47.498 90)
 			(effects
 				(font
@@ -6279,7 +6309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 46.482 185.42 90)
 			(effects
 				(font
@@ -6348,7 +6378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 252.73 113.538 90)
 			(effects
 				(font
@@ -6551,7 +6581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 171.45 101.9048 0)
 			(effects
 				(font
@@ -6684,7 +6714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 245.11 42.418 90)
 			(effects
 				(font
@@ -6751,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 252.73 102.108 90)
 			(effects
 				(font
@@ -6820,7 +6850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 33.3248 15.24 0)
 			(effects
 				(font
@@ -6954,7 +6984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 112.0648 161.29 0)
 			(effects
 				(font
@@ -7021,7 +7051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 112.0648 153.67 0)
 			(effects
 				(font
@@ -7156,7 +7186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 30.48 76.2 0)
 			(effects
 				(font
@@ -7491,7 +7521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 30.48 96.52 0)
 			(effects
 				(font
@@ -7757,7 +7787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 38.1 180.848 90)
 			(effects
 				(font
@@ -7962,7 +7992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 30.48 45.72 0)
 			(effects
 				(font
@@ -8032,7 +8062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 39.0652 158.75 0)
 			(effects
 				(font
@@ -8168,7 +8198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 94.742 165.1 90)
 			(effects
 				(font
@@ -8236,7 +8266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 30.48 66.04 0)
 			(effects
 				(font
@@ -8439,7 +8469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 94.742 157.48 90)
 			(effects
 				(font
@@ -8574,7 +8604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 156.21 108.9152 0)
 			(effects
 				(font
@@ -8712,7 +8742,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 62.23 137.16 0)
 			(effects
 				(font
@@ -8918,7 +8948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 167.64 36.068 90)
 			(effects
 				(font
@@ -8985,7 +9015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 165.862 121.92 90)
 			(effects
 				(font
@@ -9053,7 +9083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 30.48 86.36 0)
 			(effects
 				(font
@@ -9188,7 +9218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 192.7352 25.4 0)
 			(effects
 				(font
@@ -9257,7 +9287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 59.3852 31.75 0)
 			(effects
 				(font
@@ -9811,7 +9841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 115.57 65.278 90)
 			(effects
 				(font
@@ -10047,7 +10077,7 @@
 	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 207.01 102.87 0)
+		(at 210.82 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10056,7 +10086,7 @@
 		(fields_autoplaced yes)
 		(uuid "dea58a30-692b-41f0-8f7e-e96e6d407ea7")
 		(property "Reference" "LS1"
-			(at 212.09 102.8699 0)
+			(at 215.9 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10065,7 +10095,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 212.09 105.4099 0)
+			(at 215.9 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10074,7 +10104,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
-			(at 207.01 107.95 0)
+			(at 210.82 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10083,7 +10113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 206.756 104.14 0)
+			(at 210.566 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10092,7 +10122,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 207.01 102.87 0)
+			(at 210.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +10241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 181.61 85.3948 0)
 			(effects
 				(font
@@ -10345,7 +10375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 30.48 106.68 0)
 			(effects
 				(font
