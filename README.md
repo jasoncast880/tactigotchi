@@ -18,15 +18,15 @@ Microcontroller
 
     Processor: [e.g., ARM Cortex-M0+ @ 133MHz]
 
-Schematic & PCB
-MCU Schematic:
-<img width="326" alt="1" src="https://github.com/user-attachments/assets/d0a746e9-3831-4cc3-b944-e9d1ea8af4f8" />
-PSU:
-<img width="322" alt="2" src="https://github.com/user-attachments/assets/8ffa7f0c-2617-413e-8226-36778c42837e" />
-LCD/SDC THT Module:
-<img width="339" alt="3" src="https://github.com/user-attachments/assets/8f18a6a4-9829-4182-bb9d-3ce469e7dcda" />
-Speaker && IR Emitter Modules:
-<img width="368" alt="4" src="https://github.com/user-attachments/assets/d947e350-2690-49ce-b9ca-8c25be6bb485" />
+Schematic & PCB <br>
+MCU Schematic:<br>
+<img width="326" alt="1" src="https://github.com/user-attachments/assets/d0a746e9-3831-4cc3-b944-e9d1ea8af4f8" /><br>
+PSU:<br>
+<img width="322" alt="2" src="https://github.com/user-attachments/assets/8ffa7f0c-2617-413e-8226-36778c42837e" /><br>
+LCD/SDC THT Module:<br>
+<img width="339" alt="3" src="https://github.com/user-attachments/assets/8f18a6a4-9829-4182-bb9d-3ce469e7dcda" /><br>
+Speaker && IR Emitter Modules:<br>
+<img width="368" alt="4" src="https://github.com/user-attachments/assets/d947e350-2690-49ce-b9ca-8c25be6bb485" /><br>
 
 
     [Link to schematic or image]
